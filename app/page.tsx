@@ -1,7 +1,11 @@
 
 const page = () => {
   return (
-    <h1>Welcome to nextjs 16</h1>
+      <section>
+    <h1 className="text-center">The Hub for Every Dev<br />Event you can't miss</h1>
+
+      <p className = 'text-center mt-5'>Hackathon , Meetups and Conferences , All in one place </p>
+      </section>
   )
 }
 
