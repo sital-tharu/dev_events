@@ -1,10 +1,13 @@
+import ExploreBtn from "@/components/ExploreBtn";
 
 const page = () => {
   return (
       <section>
     <h1 className="text-center">The Hub for Every Dev<br />Event you can't miss</h1>
 
-      <p className = 'text-center mt-5'>Hackathon , Meetups and Conferences , All in one place </p>
+      <p className = 'text-center mt-5'>Hackathon , Meetups and Conferences , All in one place
+      </p><ExploreBtn/>
+          <div className ='mt-20 space-y-7'> </div>
       </section>
   )
 }
