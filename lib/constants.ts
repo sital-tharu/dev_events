@@ -1,0 +1,51 @@
+
+export const events = [
+  {
+    title: "AI Conference 2025",
+    image: "/images/event1.png",
+    slug: "ai-conference-2025",
+    location: "San Francisco, CA",
+    date: "December 10, 2025",
+    time: "9:00 AM",
+  },
+  {
+    title: "Web3 Summit",
+    image: "/images/event2.png",
+    slug: "web3-summit",
+    location: "New York, NY",
+    date: "November 15, 2025",
+    time: "10:00 AM",
+  },
+  {
+    title: "DevOps World",
+    image: "/images/event3.png",
+    slug: "devops-world",
+    location: "Austin, TX",
+    date: "October 20, 2025",
+    time: "8:30 AM",
+  },
+  {
+    title: "Cybersecurity Expo",
+    image: "/images/event4.png",
+    slug: "cybersecurity-expo",
+    location: "London, UK",
+    date: "January 5, 2026",
+    time: "11:00 AM",
+  },
+  {
+    title: "Mobile App Hackathon",
+    image: "/images/event5.png",
+    slug: "mobile-app-hackathon",
+    location: "Berlin, Germany",
+    date: "February 12, 2026",
+    time: "All Day",
+  },
+  {
+    title: "Open Source Symposium",
+    image: "/images/event6.png",
+    slug: "open-source-symposium",
+    location: "Tokyo, Japan",
+    date: "March 22, 2026",
+    time: "9:30 AM",
+  },
+];
