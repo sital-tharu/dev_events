@@ -15,7 +15,7 @@ const page = () => {
       </p><ExploreBtn />
       <div className='mt-20 space-y-7'> </div>
       <h3>Featured Events</h3>
-      <ul className='events'>
+      <ul className='events list-none'>
         {events.map((event) => (
           <li key={event.title}>
             <EventCard {...event} />
