@@ -8,7 +8,7 @@ if (typeof window !== 'undefined' && process.env.NEXT_PUBLIC_POSTHOG_KEY) {
     defaults: '2025-05-24',
     capture_exceptions: true, // This enables capturing exceptions using Error Tracking, set to false if you don't want this
     debug: process.env.NODE_ENV === "development",
-    loaded: (posthog) => {
+    loaded: (client: any) => {
       if (process.env.NODE_ENV === 'development') console.log('PostHog loaded successfully')
     }
   })
